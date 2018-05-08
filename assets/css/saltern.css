@@ -19,6 +19,7 @@ body , .rightHead a, .rightHead
 {
     font-size: 15px;
     font-family: 'Yekan';
+    direction: rtl;
 }
 
 .top1px
@@ -28,4 +29,11 @@ body , .rightHead a, .rightHead
 }
 .centerHead img{
     width: 100px;
+}
+
+.colorSefroweb
+
+{
+
+    background-color:  #89B9CF !important;
 }
