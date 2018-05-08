@@ -1,85 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Sefroweb Static</title>
-        <link rel="icon" href="../../../../favicon.ico">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Frontpage - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/mrh.css" rel="stylesheet" type="text/css"/>
+		<!--<link href="assets/css/reset.css" rel="stylesheet" type="text/css"/>-->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+		<!--<link href="assets/css/demo.css" rel="stylesheet" type="text/css"/>-->
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header with Background Image -->
+    <header class="business-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="display-3 text-center text-white mt-4">Business Name or Tagline</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+			<div style="overflow: auto;">
+				<ul class="nav nav-tabs" id="myTab" role="tablist" style="width: 800px;">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact2" role="tab" aria-controls="contact" aria-selected="false">Contact2</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact3" role="tab" aria-controls="contact" aria-selected="false">Contact3</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact4" role="tab" aria-controls="contact" aria-selected="false">Contact4</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact5" role="tab" aria-controls="contact" aria-selected="false">Contact5</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact6" role="tab" aria-controls="contact" aria-selected="false">Contact6</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Looking for something more than just a free theme? Head over to Creative Tim and preview some of the best premium Bootstrap themes and templates on the web!</div>
+				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Business Frontpage is a basic HTML starter template for creating a Bootstrap based website for a small business or other organization.</div>
+				<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Really nice Template. The best one for a good lokking Landingpage! Thank you very much!
+					But i have a question, i have a problem with changin the navigationbar's colour. I tried to colorize it in blue or green, but it doesn't work. Can anybody help me to fix that problem??</div>
+				<div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact-tab">Everything looks great, except for one thing. Where is the business-casual.css file that is mentioned in this bit of code??</div>
+				<div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact-tab">I am having issue with the navigation bar. it seems like its covering part of my content. Even I went to business-frontpage.css and change the padding-top. It still covers my About title. Anyone has the same issue?</div>
+				<div class="tab-pane fade" id="contact4" role="tabpanel" aria-labelledby="contact-tab"></div>
+				<div class="tab-pane fade" id="contact5" role="tabpanel" aria-labelledby="contact-tab"></div>
+				<div class="tab-pane fade" id="contact6" role="tabpanel" aria-labelledby="contact-tab">...</div>
+			</div>
 
 
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-        <title>Floating labels example for Bootstrap</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/rtl.css" rel="stylesheet">
-        <link href="css/saltern.css" rel="stylesheet" type="text/css"/>
-        <link href="fonts/font.css" rel="stylesheet" type="text/css"/>
-        <!-- Custom styles for this template -->
-        <link href="css/floating-labels.css" rel="stylesheet">
-    </head>
-
-    <body>
-
-        <form class="form-signin">
-
-            <div class="container-fluid">
-                <div class="row">
-
-                    <div class="heading">
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <div  class="rightHead ">
-                                <a class="fontStd" href="">
-                                    پرسش
-                                    <i class="fas fa-plus top1px"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <div class="centerHead">
-                                <!--<img src="img/sefroweb.PNG" alt=""/>-->
-                            </div>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                            <div class="leftHead">
-                                <a class="fontStd" href="">
-                                    پرسش
-                                    <i class="fas fa-plus top1px"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
             </div>
-            <div class="text-center mb-4">
-                <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-                <h1 class="h3 mb-3 font-weight-normal">Floating labels</h1>
-                <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
             </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 my-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
 
-            <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <label for="inputEmail">Email address</label>
-            </div>
+      </div>
+      <!-- /.row -->
 
-            <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
-            </div>
+    </div>
+    <!-- /.container -->
 
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
-            </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-            <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2018</p>
-        </form>
-    </body>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; ZeroWeb 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+		<script src="assets/js/jquery-slim.min.js" type="text/javascript"></script>
+		<script src="assets/js/popper.min.js" type="text/javascript"></script>
+		<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+		<script src="assets/js/main.js" type="text/javascript"></script>
+
+
+  </body>
+
 </html>
