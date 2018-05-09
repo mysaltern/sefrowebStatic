@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Business Frontpage - Start Bootstrap Template</title>
+        <title>Sefroweb</title>
 
         <!-- Bootstrap core CSS -->
         <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
@@ -20,7 +20,9 @@
         <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
         <!--<link href="assets/css/demo.css" rel="stylesheet" type="text/css"/>-->
         <link href="assets/fonts/font.css" rel="stylesheet" type="text/css"/>
-        <link href="assets/css/floating-labels.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <!--<link href="assets/css/floating-labels.css" rel="stylesheet" type="text/css"/>-->
     </head>
 
     <body>
@@ -30,17 +32,18 @@
             <div class="container">
 
 
-                <div class="leftHead col-sm-3">
+                <div class="leftHead col-3">
 
-                    <input class="fontStd" type="search" value="" placeholder="جست و جو" />
+                    <input class="fontStd searchBox" type="search" value="" placeholder="جست و جو" />
                 </div>
-                <div class="centerHead  col-sm-6">
-                    <img src="assets/img/sefroweb.PNG" alt=""/>
+                <div class="centerHead  col-6 text-center">
+                    <img class="" src="assets/img/sefroweb.PNG" alt=""/>
 
 
                 </div>
 
-                <div class="fontStd rightHead col-sm-3">
+                <div class="fontStd rightHead col-3">
+                    <i class="fas fa-plus top4px"></i>
                     پرسش
 
                 </div>
@@ -144,15 +147,43 @@
             <!-- /.row -->
 
         </div>
-        <!-- /.container -->
 
-        <!-- Footer -->
-        <footer class="py-5 bg-dark">
-            <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; ZeroWeb 2018</p>
+        <style>
+            body {
+                padding-top: 1em;
+            }
+        </style>
+
+        <hr/>
+        <hr/>
+        <hr/>
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse fixfooter" id="nav-content">
+                <div class="col text-center">
+                    <i class="fas fa-plus"></i>
+                    <p class="fontStd">خانه</p>
+                </div>
+                <div class="col text-center">
+                    <i class="fas fa-plus"></i>
+                    <p class="fontStd">خانه</p>
+                </div>
+                <div class="col text-center">
+                    <i class="fas fa-plus"></i>
+                    <p class="fontStd">خانه</p>
+                </div>
+                <div class="col text-center">
+                    <i class="fas fa-plus"></i>
+                    <p class="fontStd">خانه</p>
+                </div>
             </div>
-            <!-- /.container -->
-        </footer>
+        </nav>
+        <!-- /.container -->
 
         <!-- Bootstrap core JavaScript -->
         <script src="assets/js/jquery-slim.min.js" type="text/javascript"></script>
