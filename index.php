@@ -72,10 +72,34 @@
                     </li>
                 </ul>
             </div>
-            <div id="test" class="box">Swipe me</div>
 
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Looking for something more than just a free theme? Head over to Creative Tim and preview some of the best premium Bootstrap themes and templates on the web!</div>
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                    <div class="container">
+                        <div class="card stdCard" style="">
+                            <div class="profileProgress card-body stdCard">
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:70%"></div>
+                                </div>
+
+                                <div class="fontStd">
+                                    اطلاعات پروفایل خود را کامل کنید :
+                                </div>
+
+                                <div class="row">
+                                    <div class="fontStd col-xl-4 col-sm-12 col-md-4">
+                                        <button type="button" class="btn btn-success btn-block">پروفایل</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    Looking for something more than just a free theme? Head over to Creative Tim and preview some of the best premium Bootstrap themes and templates on the web!
+
+                </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Business Frontpage is a basic HTML starter template for creating a Bootstrap based website for a small business or other organization.</div>
                 <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Really nice Template. The best one for a good lokking Landingpage! Thank you very much!
                     But i have a question, i have a problem with changin the navigationbar's colour. I tried to colorize it in blue or green, but it doesn't work. Can anybody help me to fix that problem??</div>

@@ -85,3 +85,23 @@ body {
     float: left;
 }
 
+
+
+.profileProgress
+
+
+{
+    margin-top: 40px;
+    margin-bottom:  40px;
+
+}
+
+.stdCard
+{
+    margin-top: 20px;
+}
+
+
+.bg-salt {
+    background-color: #7d9ebf !important;
+}
