@@ -1,35 +1,35 @@
 
 
 <div class="container-fluid">
-    <div class="row fixfooter">
-        <div class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+	<div class="row fixfooter">
+		<div class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-salt">
 
 
 
-            <!-- Links -->
-            <div class="col fo-effect text-center buttonFooter">
+			<!-- Links -->
+			<div class="col fo-effect text-center buttonFooter">
 
-                <i class="fas fa-plus"></i>
-                <p class="fontStd">خانه</p>
-            </div>
-            <div class="col fo-effect text-center buttonFooter">
+				<i class="fas fa-plus"></i>
+				<p class="fontStd">خانه</p>
+			</div>
+			<div class="col fo-effect text-center buttonFooter">
 
-                <i class="fas fa-plus"></i>
-                <p class="fontStd">خانه</p>
-            </div>
-            <div class="col fo-effect text-center buttonFooter">
+				<i class="fas fa-plus"></i>
+				<p class="fontStd">خانه</p>
+			</div>
+			<div class="col fo-effect text-center buttonFooter">
 
-                <i class="fas fa-plus"></i>
-                <p class="fontStd">خانه</p>
-            </div>
-            <div class="col fo-effect text-center buttonFooter">
+				<i class="fas fa-plus"></i>
+				<p class="fontStd">خانه</p>
+			</div>
+			<div class="col fo-effect text-center buttonFooter">
 
-                <i class="fas fa-plus"></i>
-                <p class="fontStd">خانه</p>
-            </div>
+				<i class="fas fa-plus"></i>
+				<p class="fontStd">خانه</p>
+			</div>
 
-        </div>
-    </div>
+		</div>
+	</div>
 </div>
 
 <!-- /.container -->
