@@ -156,33 +156,36 @@
 
         <hr/>
         <hr/>
+
         <hr/>
-        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="container-fluid">
+            <div class="row fixfooter">
+                <div class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
 
 
-            <!-- Links -->
-            <div class="collapse navbar-collapse fixfooter" id="nav-content">
-                <div class="col text-center">
-                    <i class="fas fa-plus"></i>
-                    <p class="fontStd">خانه</p>
-                </div>
-                <div class="col text-center">
-                    <i class="fas fa-plus"></i>
-                    <p class="fontStd">خانه</p>
-                </div>
-                <div class="col text-center">
-                    <i class="fas fa-plus"></i>
-                    <p class="fontStd">خانه</p>
-                </div>
-                <div class="col text-center">
-                    <i class="fas fa-plus"></i>
-                    <p class="fontStd">خانه</p>
+
+                    <!-- Links -->
+                    <div class="col text-center">
+                        <i class="fas fa-plus"></i>
+                        <p class="fontStd">خانه</p>
+                    </div>
+                    <div class="col text-center">
+                        <i class="fas fa-plus"></i>
+                        <p class="fontStd">خانه</p>
+                    </div>
+                    <div class="col text-center">
+                        <i class="fas fa-plus"></i>
+                        <p class="fontStd">خانه</p>
+                    </div>
+                    <div class="col text-center">
+                        <i class="fas fa-plus"></i>
+                        <p class="fontStd">خانه</p>
+                    </div>
+
                 </div>
             </div>
-        </nav>
+        </div>
+
         <!-- /.container -->
 
         <!-- Bootstrap core JavaScript -->
