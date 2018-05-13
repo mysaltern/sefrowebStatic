@@ -27,39 +27,19 @@
 
     <body>
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg colorSefroweb navbar-dark fixed-top">
-            <div class="container">
 
 
-                <div class="leftHead col-3">
+        <!--header-->
+        <!--header-->
+        <!--header-->
+        <!--header-->
 
-                    <input class="fontStd searchBox" type="search" value="" placeholder="جست و جو" />
-                </div>
-                <div class="centerHead  col-6 text-center">
-                    <img class="" src="assets/img/sefroweb.PNG" alt=""/>
+        <?php include 'header.php'; ?>
 
 
-                </div>
-
-                <div class="fontStd rightHead col-3">
-                    <i class="fas fa-plus top4px"></i>
-                    پرسش
-
-                </div>
-            </div>
-        </nav>
-
-        <!-- Header with Background Image -->
-        <header class="business-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="display-3 text-center text-white mt-4">Business Name or Tagline</h1>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <!--header-->
+        <!--header-->
+        <!--header-->
 
         <!-- Page Content -->
         <div class="container">
@@ -148,51 +128,24 @@
 
         </div>
 
-        <style>
-            body {
-                padding-top: 1em;
-            }
-        </style>
-
         <hr/>
         <hr/>
 
+
         <hr/>
-        <div class="container-fluid">
-            <div class="row fixfooter">
-                <div class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
 
 
 
-                    <!-- Links -->
-                    <div class="col text-center">
-                        <i class="fas fa-plus"></i>
-                        <p class="fontStd">خانه</p>
-                    </div>
-                    <div class="col text-center">
-                        <i class="fas fa-plus"></i>
-                        <p class="fontStd">خانه</p>
-                    </div>
-                    <div class="col text-center">
-                        <i class="fas fa-plus"></i>
-                        <p class="fontStd">خانه</p>
-                    </div>
-                    <div class="col text-center">
-                        <i class="fas fa-plus"></i>
-                        <p class="fontStd">خانه</p>
-                    </div>
+        <!--        footer   footer        footer   footer
+                footer   footer
+        -->
 
-                </div>
-            </div>
-        </div>
+        <?php include 'footer.php'; ?>
 
-        <!-- /.container -->
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="assets/js/jquery-slim.min.js" type="text/javascript"></script>
-        <script src="assets/js/popper.min.js" type="text/javascript"></script>
-        <script src="assets/js/bootstrap.js" type="text/javascript"></script>
-        <script src="assets/js/main.js" type="text/javascript"></script>
+        <!--
+                footer   footer
+                footer   footer-->
 
 
     </body>
