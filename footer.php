@@ -1,4 +1,4 @@
- 
+
 
 <div class="container-fluid">
     <div class="row fixfooter">
@@ -8,22 +8,22 @@
 
             <!-- Links -->
             <div class="col text-center buttonFooter">
-                <span>Hover </span>
+
                 <i class="fas fa-plus"></i>
                 <p class="fontStd">خانه</p>
             </div>
             <div class="col text-center buttonFooter">
-                <span>Hover </span>
+
                 <i class="fas fa-plus"></i>
                 <p class="fontStd">خانه</p>
             </div>
             <div class="col text-center buttonFooter">
-                <span>Hover </span>
+
                 <i class="fas fa-plus"></i>
                 <p class="fontStd">خانه</p>
             </div>
             <div class="col text-center buttonFooter">
-                <span>Hover </span>
+
                 <i class="fas fa-plus"></i>
                 <p class="fontStd">خانه</p>
             </div>
