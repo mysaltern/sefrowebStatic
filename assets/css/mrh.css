@@ -10,14 +10,14 @@ and open the template in the editor.
 
 /* Ripple effect */
 .fo-effect {
-  background-position: center;
-  transition: background 0.8s;
+    background-position: center;
+    transition: background 1.8s;
 }
 /*.fo-effect:hover {
   background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
 }*/
 .fo-effect:active {
-  background-color: #6eb9f7;
-  background-size: 100%;
-  transition: background 0s;
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
 }

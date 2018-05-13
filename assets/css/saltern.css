@@ -105,3 +105,8 @@ body {
 .bg-salt {
     background-color: #7d9ebf !important;
 }
+
+.small-width
+{
+    max-width: 50px;
+}

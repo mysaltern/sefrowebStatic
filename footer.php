@@ -1,35 +1,41 @@
 
 
 <div class="container-fluid">
-	<div class="row fixfooter">
-		<div class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-salt">
+    <div class="row fixfooter">
+        <div class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-salt">
 
 
 
-			<!-- Links -->
-			<div class="col fo-effect text-center buttonFooter">
+            <!-- Links -->
+            <div class="d-block d-sm-none">
 
-				<i class="fas fa-plus"></i>
-				<p class="fontStd">خانه</p>
-			</div>
-			<div class="col fo-effect text-center buttonFooter">
+                <div class="col fo-effect text-center buttonFooter">
 
-				<i class="fas fa-plus"></i>
-				<p class="fontStd">خانه</p>
-			</div>
-			<div class="col fo-effect text-center buttonFooter">
+                    <img class="small-width" src="assets/img/sefroweb.PNG" alt=""/>
 
-				<i class="fas fa-plus"></i>
-				<p class="fontStd">خانه</p>
-			</div>
-			<div class="col fo-effect text-center buttonFooter">
+                </div>
 
-				<i class="fas fa-plus"></i>
-				<p class="fontStd">خانه</p>
-			</div>
+            </div>
+            <!-- Links -->
 
-		</div>
-	</div>
+            <div class="col fo-effect text-center buttonFooter">
+
+                <i class="fas fa-plus"></i>
+                <p class="fontStd">خانه</p>
+            </div>
+            <div class="col fo-effect text-center buttonFooter">
+
+                <i class="fas fa-plus"></i>
+                <p class="fontStd">خانه</p>
+            </div>
+            <div class="col fo-effect text-center buttonFooter">
+
+                <i class="fas fa-plus"></i>
+                <p class="fontStd">خانه</p>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 <!-- /.container -->
