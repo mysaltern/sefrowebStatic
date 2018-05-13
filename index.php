@@ -72,6 +72,8 @@
                     </li>
                 </ul>
             </div>
+            <div id="test" class="box">Swipe me</div>
+
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Looking for something more than just a free theme? Head over to Creative Tim and preview some of the best premium Bootstrap themes and templates on the web!</div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Business Frontpage is a basic HTML starter template for creating a Bootstrap based website for a small business or other organization.</div>

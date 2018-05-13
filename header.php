@@ -5,7 +5,7 @@
 
         <div class="leftHead col-3">
 
-            <input class="fontStd searchBox" type="search" value="" placeholder="جست و جو" />
+            <input class="fontStd searchBox f_left" type="search" value="" placeholder="جست و جو" />
         </div>
         <div class="centerHead  col-6 text-center">
             <img class="" src="assets/img/sefroweb.PNG" alt=""/>
